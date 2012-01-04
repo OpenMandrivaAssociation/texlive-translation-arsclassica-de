@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-translation-arsclassica-de
 Version:	20110901
-Release:	1
+Release:	2
 Summary:	German version of arsclassica
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/arsclassica/de
