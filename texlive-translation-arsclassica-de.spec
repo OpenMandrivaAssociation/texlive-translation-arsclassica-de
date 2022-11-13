@@ -1,18 +1,12 @@
-# revision 23803
-# category Package
-# catalog-ctan /info/translations/arsclassica/de
-# catalog-date 2011-09-01 19:45:17 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-translation-arsclassica-de
-Version:	20190228
+Version:	23803
 Release:	1
 Summary:	German version of arsclassica
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/arsclassica/de
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-arsclassica-de.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-arsclassica-de.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-arsclassica-de.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-arsclassica-de.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,23 +21,10 @@ This is a "translation" of the arsclassica dcoumentation.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110901-2
-+ Revision: 757078
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110901-1
-+ Revision: 719793
-- texlive-translation-arsclassica-de
-- texlive-translation-arsclassica-de
-- texlive-translation-arsclassica-de
-
