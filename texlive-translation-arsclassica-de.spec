@@ -1,6 +1,6 @@
 Name:		texlive-translation-arsclassica-de
 Version:	23803
-Release:	1
+Release:	2
 Summary:	German version of arsclassica
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/arsclassica/de
