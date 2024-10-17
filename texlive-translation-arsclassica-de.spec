@@ -3,7 +3,7 @@ Version:	23803
 Release:	2
 Summary:	German version of arsclassica
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/arsclassica/de
+URL:		https://www.ctan.org/tex-archive/info/translations/arsclassica/de
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-arsclassica-de.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-arsclassica-de.doc.r%{version}.tar.xz
